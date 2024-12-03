@@ -80,6 +80,7 @@ body {
     padding: 50px 20px;
     background: linear-gradient(to right, #000000, #81c784);
     color: white;
+    motion-rotation: reverse;
 }
 
 .hero h2 {
