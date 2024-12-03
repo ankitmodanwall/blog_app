@@ -5,13 +5,15 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    position: fixed;
+
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-width: fit-content;
+width: 0px;
 }
 
 /* Header Styles */
@@ -22,7 +24,7 @@ width: fit-content;
     width: fit-content;
     position: fixed;
     top: 0;
-    margin: auto;
+    /* margin: ; */
     z-index: 10;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     
