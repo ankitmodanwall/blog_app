@@ -11,6 +11,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+width: fit-content;
 }
 
 /* Header Styles */
@@ -18,10 +19,13 @@ body {
     background-color: #489a44;
     color: white;
     padding: 15px 0;
-    position: sticky;
+    width: fit-content;
+    position: fixed;
     top: 0;
+    margin: auto;
     z-index: 10;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
 
 .logo-title {
