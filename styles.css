@@ -19,11 +19,9 @@ body {
     color: white;
     padding: 15px 0;
     position: sticky;
-    fl
     top: 0;
     z-index: 10;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    
 }
 
 .logo-title {
