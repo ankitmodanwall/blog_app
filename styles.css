@@ -5,14 +5,12 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-width: 0px;
 }
 
 /* Header Styles */
@@ -20,10 +18,9 @@ width: 0px;
     background-color: #489a44;
     color: white;
     padding: 15px 0;
-    width: fit-content;
-    position: fixed;
+    position: sticky;
+    fl
     top: 0;
-    /* margin: ; */
     z-index: 10;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     
