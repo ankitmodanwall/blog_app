@@ -3,3 +3,4 @@ function likePost(button) {
     let count = parseInt(likeCount.textContent);
     likeCount.textContent = count + 1;
 }
+

@@ -5,7 +5,7 @@ This is a clone Blog sig=ngal page application where anyone can share their idea
 ##Techs 🔗
 - Frontend: [plain HTML/CSS/JS]
 - Backend: [Javascript]
-- Deployment: [Gihub]
+- Deployment: [Github]
 
 ##SCRESHOTS 
 ![image](https://github.com/user-attachments/assets/ee2089dc-c587-46a3-b9dc-0efe4ecfaa51)
