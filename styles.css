@@ -41,6 +41,9 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    color: #555;
+    width: auto;
+    
 }
 
 .header nav {
@@ -63,7 +66,7 @@ body {
 .search-form {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px
 }
 
 .search-form input {
@@ -74,11 +77,19 @@ body {
 
 .search-form button {
     background-color: #d4edda;
-    color: #333;
+    color: #210404;
     border: none;
     border-radius: 4px;
     padding: 5px 10px;
     cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+}
+
+.search-form button:hover{
+    background-color: #af9898;
+    position: sticky;
+    
 }
 
 /* Hero Section */
@@ -503,14 +514,18 @@ h6 {
 .social-button i {
     /* margin-right: 5px;
  */
- right: auto;
- position: sticky;
-    background-color: transparent;
-    text-align: center;
+
+ color: #4e6c7b;
+ background-color: transparent;
+ color: wheat;
+ align-items: center;
+ padding: 5px;
+
+ }
     
 
     
-}
+
 *{
     margin: 0; padding: 0;
     border: 0; outline: 0;
@@ -530,10 +545,10 @@ footer{
     background-color: #111010;
 }
 .f-item-con{
-    padding: 1.5rem 4rem;
+    padding: 50px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-gap: 2rem;
+    /* grid-template-columns: repeat(3, minmax(0, 2fr)); */
+    grid-gap: 3rem;
 }
 footer .app-name{
     color: white;
@@ -548,7 +563,7 @@ footer .app-name{
 }
 footer .app-info p{
     color: white;
-    padding-left: 1.65rem;
+    padding-left: 2rem;
 }
 
 footer .footer-title{ 
