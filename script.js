@@ -1,6 +1,6 @@
 function likePost(button) {
     const likeCount = button.querySelector(".like-count");
     let count = parseInt(likeCount.textContent);
-    likeCount.textContent = count + 1;
+    likeCount.textContent = + 1;
 }
 
